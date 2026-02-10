@@ -3,7 +3,7 @@ cask "mcpchecker" do
   name "mcpchecker"
   desc "Integration testing framework for your MCP Servers and Agents"
   homepage "https://github.com/mcpchecker/mcpchecker"
-  version "0.0.6"
+  version "0.0.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "mcpchecker" do
     on_intel do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/mcpchecker-darwin-amd64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "84e893c6f4d6d8e3d0d57d09cca65a4df393f1490dac24f51ff858b7576f94d3"
+      sha256 "7d8b26bbedbc35551b3c07bb3d8c9d7c50bc971fbc6b6c87cb5dc6dc7704f362"
     end
     on_arm do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/mcpchecker-darwin-arm64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "a6e7db2b4622452df8babafe6c865c7ad45d5c82658a62d0ca2a3ff6cc5fa601"
+      sha256 "ec3a28de009fce2dff89ad523663b3b558dcbdafe87a5c4f5994a6c0e394ebc1"
     end
   end
 
@@ -28,12 +28,12 @@ cask "mcpchecker" do
     on_intel do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/mcpchecker-linux-amd64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "397713f75b3d2026382c394451f8b8be9dbf0fa04bc7f9939578c2aacb6cded7"
+      sha256 "eff0530bf9aa5f5fef42c5f5071aa12d6c97fd60cb0d70db0391467166440479"
     end
     on_arm do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/mcpchecker-linux-arm64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "a503de49ed53b4c41f548a0b21408eb15da7469b91e030e9ccb91bc883ec8108"
+      sha256 "9b1e131f0a1e3191598461fb5222779289285b53e660b6cecc0d48622013f4ff"
     end
   end
 
