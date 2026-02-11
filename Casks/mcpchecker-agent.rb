@@ -3,7 +3,7 @@ cask "mcpchecker-agent" do
   name "mcpchecker-agent"
   desc "Agent CLI for interacting with MCP servers"
   homepage "https://github.com/mcpchecker/mcpchecker"
-  version "0.0.8"
+  version "0.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "mcpchecker-agent" do
     on_intel do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/agent-darwin-amd64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "e3d349585a09dc429e16d0a7939c9dc8eba373f1dbf451fb4fb99e5b0c5eb59b"
+      sha256 "c8079c4254f5ffae452188d3c3ee7d886a74ff893b54beb67f6875e8bd564fac"
     end
     on_arm do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/agent-darwin-arm64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "043a8e07530957d612efc5f1f440595f334c12ec34d53af7fb5372bb87502d73"
+      sha256 "936e76afea6cca821125c7435b4a169f882f4558ccc052dcd585a030e8c95a7e"
     end
   end
 
@@ -28,12 +28,12 @@ cask "mcpchecker-agent" do
     on_intel do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/agent-linux-amd64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "373fcbf9b50609c361c3e047f47b755150227bb4c58bae80ab5da8eba4c31f35"
+      sha256 "534a0e7e32ccd1a666df250e8b707416d348c621070ee5bf6d6e0ffc4ab816fe"
     end
     on_arm do
       url "https://github.com/mcpchecker/mcpchecker/releases/download/v#{version}/agent-linux-arm64.zip",
         verified: "github.com/mcpchecker/mcpchecker"
-      sha256 "0965f709f6ae3c4933e62db6096ac8c67aa3d1e71291c169e9cd4c0f1d31fbab"
+      sha256 "0be10a50196646e5758cddf79f56e416b5933aed6e67f0ecc7926f9b3de23aa7"
     end
   end
 
